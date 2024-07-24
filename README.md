@@ -1,24 +1,19 @@
 #### Veterinary-Clinic
-The Veterinary Clinic Management System is a comprehensive solution designed to streamline the operations of a veterinary clinic. This project is built using a microservices architecture, where each microservice handles specific aspects of clinic management. The system also includes a frontend application to provide an intuitive interface for users.
+The Veterinary Clinic Management System is a comprehensive solution designed to streamline the operations of a veterinary clinic. This project is built using a microservices architecture, where each microservice handles specific aspects of clinic management. 
 
-#### How to install and run the project?
-The project utilizes Node.js with the Express.js framework and employs Docker for containerization. PostgreSQL serves as the database system.
+#### Frontend
+A React-based web application that provides a user-friendly interface to interact with the microservices. This frontend application allows users to seamlessly manage various aspects of the veterinary clinic, viewing clinic schedules, updating product, and interacting with different clinic services and branches. The interface is designed to be intuitive and responsive, ensuring a smooth user experience across different devices.
 
-1) The project needs to be downloaded or cloned initially.
+#### How to access the frontend?
+To access the application, follow these steps:
 
-2) The subsequent steps involve installing dependencies and running the project, followed by executing the commands specific to each microservice.
-- `npm init -y`
-- `npm install`
-- `npm start`
+1. Ensure that all backend microservices are up and running.
+2. Start the frontend application by following the installation and running instructions provided in the `README` the microservices.
+3. Open your preferred web browser.
+4. Navigate to the following URL: [http://localhost:3000]
 
-3) This process needs to be repeated for each repository where the respective microservices are stored.
-
-#### How to use the project
-To use the project, execute the commands outlined earlier. When running these commands in the terminal, you will obtain URLs that you can open locally. The Swagger documentation will allow you to view the data available in your configured database in JSON format, as the microservice functions solely as the backend.
-
-#### Requirements
-- Locally, you should adjust to the ports of your preference.
-- For deployment on AWS, you need to be familiar with ECR, EC2 and Load Balancing AWS
+#### What will be found on the frontend?
+Upon accessing the application at [http://localhost:3000], you will be greeted with a sleek and intuitive user interface. This interface has been meticulously designed to ensure a seamless and efficient user experience, allowing you to easily interact with all the underlying microservices. Whether you are managing appointments, updating medical records, or overseeing inventory, our application provides a responsive and user-friendly platform to streamline your veterinary clinic operations.
 
 ####  Collaborators
 Karen Chicaiza - https://github.com/Karen020701
